@@ -15,6 +15,6 @@
     -p 1433:1433 --name sql2022 --hostname sql2022 \
     -d \
     --restart=unless-stopped \
-    --platform linux/amd64
+    --platform linux/amd64 \
     mcr.microsoft.com/mssql/server:2022-latest
     ```
