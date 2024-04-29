@@ -25,7 +25,7 @@
 - Shell script:
 
     ```sh
-    dotnet new webapi .
+    dotnet new webapi
     dotnet add package OpenIddict
     dotnet add package Microsoft.AspNetCore.Identity.EntityFrameworkCore
     dotnet add package Microsoft.AspNetCore.Authentication.JwtBearer
