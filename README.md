@@ -11,7 +11,7 @@
 - For Apple chip: `--platform linux/amd64`
 - Shell script:
 
-    ```sh
+    ```
     docker run -e "ACCEPT_EULA=Y" -e "MSSQL_SA_PASSWORD=Aa@123456" \
     -p 1433:1433 --name sql2022 --hostname sql2022 \
     -d \
@@ -24,9 +24,23 @@
 
 - Shell script:
 
-    ```sh
+    ```
     dotnet new webapi
+    dotnet add package Serilog
+    dotnet add package Serilog.AspNetCore
+    dotnet add package Serilog.Extensions.Logging
+    dotnet add package Serilog.Settings.Configuration
+    dotnet add package Serilog.Sinks.Seq
+    dotnet add package Serilog.Sinks.Console
+    dotnet add package Serilog.Sinks.File
+    dotnet add package Microsoft.EntityFrameworkCore.Tool
+    dotnet add package Microsoft.EntityFrameworkCore.Design
+    dotnet add package Microsoft.EntityFrameworkCore.SqlServer
     dotnet add package OpenIddict
+    dotnet add package OpenIddict.EntityFrameworkCore
+    dotnet add package OpenIddict.AspNetCore
     dotnet add package Microsoft.AspNetCore.Identity.EntityFrameworkCore
     dotnet add package Microsoft.AspNetCore.Authentication.JwtBearer
     ```
+
+
