@@ -4,10 +4,11 @@
 
 ### MS SQL Server 2022 16.x (on docker container, linux version) [Reference](https://learn.microsoft.com/en-us/sql/linux/quickstart-install-connect-docker?view=sql-server-ver16&tabs=cli&pivots=cs1-bash)
 
-    - Note that newest MSSQL version run with `MSSQL_SA_PASSWORD` keyword replace for `SA_PASSWORD`
-    - Disable sa account for production security best practice
-    - Container restart policy:  `--restart=unless-stopped`
-    - For Apple chip: `--platform linux/amd64`
+- Note that newest MSSQL version run with `MSSQL_SA_PASSWORD` keyword replace for `SA_PASSWORD`
+- Disable sa account for production security best practice
+- Container restart policy:  `--restart=unless-stopped`
+- For Apple chip: `--platform linux/amd64`
+- Shell script:
 
     ```sh
     docker run -e "ACCEPT_EULA=Y" -e "MSSQL_SA_PASSWORD=Aa@123456" \
@@ -17,7 +18,3 @@
     --platform linux/amd64
     mcr.microsoft.com/mssql/server:2022-latest
     ```
-
-
-
-  
