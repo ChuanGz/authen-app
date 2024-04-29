@@ -4,8 +4,10 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Serilog;
+using Serilog.Core;
 
 var builder = WebApplication.CreateBuilder(args);
+Log.Logger = new LoggerConfiguration().CreateLogger();
 
 builder.Host.UseSerilog((ctx, lc) => lc
     .MinimumLevel.Information()
@@ -16,8 +18,10 @@ builder.Host.UseSerilog((ctx, lc) => lc
     rollingInterval: RollingInterval.Day)
     );
 
+var injectedCfgFile = $"appsettings.{builder.Environment.EnvironmentName}.json";
+Log.Information("File injected: ", injectedCfgFile);
 builder.Configuration
-    .AddJsonFile($"appsettings.{builder.Environment.EnvironmentName}.json", optional: true)
+    .AddJsonFile(injectedCfgFile, optional: true)
     .AddEnvironmentVariables();
 
 builder.Services.AddEndpointsApiExplorer();
@@ -56,14 +60,16 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
             ValidateAudience = false,
             ValidateLifetime = true,
             ValidateIssuerSigningKey = true,
-            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("your_secret_key_here"))
+            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("authen_sc_key"))
         };
     });
+
+builder.Services.AddControllers();
 
 var app = builder.Build();
 
 app.UseSwagger();
 app.UseSwaggerUI();
-
 app.UseHttpsRedirection();
+app.MapControllers();
 app.Run();
