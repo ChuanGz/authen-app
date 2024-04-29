@@ -1,6 +1,7 @@
 # Installation
 
 ### DotNET SDK (version 8.0.203) [Reference](https://dotnet.microsoft.com/en-us/download)
+- GitHub Installation guide: [Reference](https://github.com/dotnet/core/blob/main/release-notes/8.0/install.md)
 
 ### MS SQL Server 2022 16.x (on docker container, linux version) [Reference](https://learn.microsoft.com/en-us/sql/linux/quickstart-install-connect-docker?view=sql-server-ver16&tabs=cli&pivots=cs1-bash)
 
