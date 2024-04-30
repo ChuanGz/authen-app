@@ -9,7 +9,7 @@ var builder = WebApplication.CreateBuilder(args);
 Log.Logger = new LoggerConfiguration().CreateLogger();
 
 builder.Host.UseSerilog((ctx, lc) => lc
-    .MinimumLevel.Information()
+    .MinimumLevel.Verbose()
     .WriteTo.Console()
     .WriteTo.File("Logs/log-api-.txt",
     outputTemplate:
@@ -20,7 +20,8 @@ builder.Host.UseSerilog((ctx, lc) => lc
 var injectedCfgFile = $"appsettings.{builder.Environment.EnvironmentName}.json";
 Log.Information("File injected: ", injectedCfgFile);
 builder.Configuration
-    .AddJsonFile(injectedCfgFile, optional: true)
+    .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
+    .AddJsonFile(injectedCfgFile, optional: true, reloadOnChange: true)
     .AddEnvironmentVariables();
 
 builder.Services.AddEndpointsApiExplorer();

@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace authen_app.Migrations
 {
     /// <inheritdoc />
-    public partial class NewDBSeed : Migration
+    public partial class UserAndRole : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -197,9 +197,9 @@ namespace authen_app.Migrations
                 columns: new[] { "Id", "ConcurrencyStamp", "Name", "NormalizedName" },
                 values: new object[,]
                 {
-                    { "3d5b1647-09c5-463d-8991-fc88c37654ba", "638500471640218600", "System Admin", "System Admin" },
-                    { "c7b013f0-5201-4317-abd8-c211f91b7330", "638500471640218630", "Normal Member", "Normal Member" },
-                    { "fab4fac1-c546-41de-aebc-a14da6895711", "638500471640218620", "Portal Admin", "Portal Admin" }
+                    { "3d5b1647-09c5-463d-8991-fc88c37654ba", "638500487783754270", "System Admin", "System Admin" },
+                    { "c7b013f0-5201-4317-abd8-c211f91b7330", "638500487783754300", "Normal Member", "Normal Member" },
+                    { "fab4fac1-c546-41de-aebc-a14da6895711", "638500487783754290", "Portal Admin", "Portal Admin" }
                 });
 
             migrationBuilder.InsertData(
@@ -207,9 +207,9 @@ namespace authen_app.Migrations
                 columns: new[] { "Id", "AccessFailedCount", "ConcurrencyStamp", "Email", "EmailConfirmed", "LockoutEnabled", "LockoutEnd", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "SecurityStamp", "TwoFactorEnabled", "UserName" },
                 values: new object[,]
                 {
-                    { "18982e3a-f76d-4985-90bc-461341351f77", 0, "1f7f31ee-9a11-4fb5-b374-954949d6d402", "kendy@olih.com", false, true, null, null, null, null, "1234567890", false, "5bf2c867-3613-4ee1-ad89-00848a5fb02c", false, "Kendy" },
-                    { "b74ddd14-6340-4840-95c2-db12554843e5", 0, "d9c808c8-9c88-4b1f-bf64-a2ff90921fc3", "olih.admin@olih.com", false, true, null, null, null, null, "1234567890", false, "3a70ed1a-7bb1-4471-b7f4-770993720ee4", false, "Olih Admin" },
-                    { "f736cc9f-da49-4006-bed1-6f49f10bde81", 0, "b4e8675b-5626-4710-84c6-7480f7f27efb", "olih.system@olih.com", false, true, null, null, null, null, "1234567890", false, "c9666826-9e60-4295-aa19-a3552e1c10a6", false, "Olih System" }
+                    { "18982e3a-f76d-4985-90bc-461341351f77", 0, "8de52923-2d1b-4813-b9c4-1a6736ed3c17", "kendy@olih.com", false, true, null, null, null, null, "1234567890", false, "8c1c821c-6177-4bcf-bf91-79b2eb1619d9", false, "Kendy" },
+                    { "b74ddd14-6340-4840-95c2-db12554843e5", 0, "dd349bd6-c871-40de-bd4a-e97bd7d60fdc", "olih.admin@olih.com", false, true, null, null, null, null, "1234567890", false, "a255131a-3800-4150-a6d3-652560628824", false, "Olih Admin" },
+                    { "f736cc9f-da49-4006-bed1-6f49f10bde81", 0, "c711aa67-74b0-402c-9816-c90b6242629c", "olih.system@olih.com", false, true, null, null, null, null, "1234567890", false, "8d4b11e6-c04f-40b5-96e8-b550f1598f79", false, "Olih System" }
                 });
 
             migrationBuilder.InsertData(

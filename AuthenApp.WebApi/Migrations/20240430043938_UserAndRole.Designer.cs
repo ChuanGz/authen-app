@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace authen_app.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20240430041244_NewDBSeed")]
-    partial class NewDBSeed
+    [Migration("20240430043938_UserAndRole")]
+    partial class UserAndRole
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -93,13 +93,13 @@ namespace authen_app.Migrations
                         {
                             Id = "f736cc9f-da49-4006-bed1-6f49f10bde81",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "b4e8675b-5626-4710-84c6-7480f7f27efb",
+                            ConcurrencyStamp = "c711aa67-74b0-402c-9816-c90b6242629c",
                             Email = "olih.system@olih.com",
                             EmailConfirmed = false,
                             LockoutEnabled = true,
                             PhoneNumber = "1234567890",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "c9666826-9e60-4295-aa19-a3552e1c10a6",
+                            SecurityStamp = "8d4b11e6-c04f-40b5-96e8-b550f1598f79",
                             TwoFactorEnabled = false,
                             UserName = "Olih System"
                         },
@@ -107,13 +107,13 @@ namespace authen_app.Migrations
                         {
                             Id = "b74ddd14-6340-4840-95c2-db12554843e5",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "d9c808c8-9c88-4b1f-bf64-a2ff90921fc3",
+                            ConcurrencyStamp = "dd349bd6-c871-40de-bd4a-e97bd7d60fdc",
                             Email = "olih.admin@olih.com",
                             EmailConfirmed = false,
                             LockoutEnabled = true,
                             PhoneNumber = "1234567890",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "3a70ed1a-7bb1-4471-b7f4-770993720ee4",
+                            SecurityStamp = "a255131a-3800-4150-a6d3-652560628824",
                             TwoFactorEnabled = false,
                             UserName = "Olih Admin"
                         },
@@ -121,13 +121,13 @@ namespace authen_app.Migrations
                         {
                             Id = "18982e3a-f76d-4985-90bc-461341351f77",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "1f7f31ee-9a11-4fb5-b374-954949d6d402",
+                            ConcurrencyStamp = "8de52923-2d1b-4813-b9c4-1a6736ed3c17",
                             Email = "kendy@olih.com",
                             EmailConfirmed = false,
                             LockoutEnabled = true,
                             PhoneNumber = "1234567890",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "5bf2c867-3613-4ee1-ad89-00848a5fb02c",
+                            SecurityStamp = "8c1c821c-6177-4bcf-bf91-79b2eb1619d9",
                             TwoFactorEnabled = false,
                             UserName = "Kendy"
                         });
@@ -179,21 +179,21 @@ namespace authen_app.Migrations
                         new
                         {
                             Id = "3d5b1647-09c5-463d-8991-fc88c37654ba",
-                            ConcurrencyStamp = "638500471640218600",
+                            ConcurrencyStamp = "638500487783754270",
                             Name = "System Admin",
                             NormalizedName = "System Admin"
                         },
                         new
                         {
                             Id = "fab4fac1-c546-41de-aebc-a14da6895711",
-                            ConcurrencyStamp = "638500471640218620",
+                            ConcurrencyStamp = "638500487783754290",
                             Name = "Portal Admin",
                             NormalizedName = "Portal Admin"
                         },
                         new
                         {
                             Id = "c7b013f0-5201-4317-abd8-c211f91b7330",
-                            ConcurrencyStamp = "638500471640218630",
+                            ConcurrencyStamp = "638500487783754300",
                             Name = "Normal Member",
                             NormalizedName = "Normal Member"
                         });
