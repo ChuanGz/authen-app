@@ -1,0 +1,259 @@
+[2024-04-30 08:34:31.180 +07:00] [Information] [Executed DbCommand ("10"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"]
+[2024-04-30 08:34:31.209 +07:00] [Information] [Executed DbCommand ("9"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"]
+[2024-04-30 08:34:31.211 +07:00] [Information] [Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"]
+[2024-04-30 08:34:31.213 +07:00] [Information] [Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"]
+[2024-04-30 08:34:31.234 +07:00] [Information] [Executed DbCommand ("14"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];"]
+[2024-04-30 08:34:31.240 +07:00] [Information] [Applying migration '"20240430013410_InitialCreateRm"'.]
+[2024-04-30 08:34:31.262 +07:00] [Information] [Executed DbCommand ("4"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20240430013410_InitialCreateRm', N'8.0.4');"]
+[2024-04-30 08:37:17.829 +07:00] [Information] [Kendy]
+[2024-04-30 08:37:17.851 +07:00] [Information] [Kendy]
+[2024-04-30 08:37:17.851 +07:00] [Information] [Kendy]
+[2024-04-30 08:37:17.851 +07:00] [Information] [Kendy]
+[2024-04-30 08:37:17.851 +07:00] [Information] [Kendy]
+[2024-04-30 08:37:17.851 +07:00] [Information] [Kendy]
+[2024-04-30 08:37:17.851 +07:00] [Information] [Kendy]
+[2024-04-30 08:37:17.851 +07:00] [Information] [Kendy]
+[2024-04-30 08:37:17.851 +07:00] [Information] [Kendy]
+[2024-04-30 08:37:17.958 +07:00] [Information] [Kendy]
+[2024-04-30 08:37:17.958 +07:00] [Information] [Kendy]
+[2024-04-30 08:37:17.958 +07:00] [Information] [Kendy]
+[2024-04-30 08:37:17.958 +07:00] [Information] [Kendy]
+[2024-04-30 08:37:17.958 +07:00] [Information] [Kendy]
+[2024-04-30 08:37:17.958 +07:00] [Information] [Kendy]
+[2024-04-30 08:37:17.958 +07:00] [Information] [Kendy]
+[2024-04-30 08:37:17.958 +07:00] [Information] [Kendy]
+[2024-04-30 08:37:17.958 +07:00] [Information] [Kendy]
+[2024-04-30 08:41:43.985 +07:00] [Information] [Kendy]
+[2024-04-30 08:41:44.008 +07:00] [Information] [Kendy]
+[2024-04-30 08:41:44.008 +07:00] [Information] [Kendy]
+[2024-04-30 08:41:44.008 +07:00] [Information] [Kendy]
+[2024-04-30 08:41:44.008 +07:00] [Information] [Kendy]
+[2024-04-30 08:41:44.008 +07:00] [Information] [Kendy]
+[2024-04-30 08:41:44.008 +07:00] [Information] [Kendy]
+[2024-04-30 08:41:44.008 +07:00] [Information] [Kendy]
+[2024-04-30 08:41:44.008 +07:00] [Information] [Kendy]
+[2024-04-30 08:41:44.008 +07:00] [Information] [Kendy]
+[2024-04-30 08:41:44.111 +07:00] [Information] [Kendy]
+[2024-04-30 08:41:44.111 +07:00] [Information] [Kendy]
+[2024-04-30 08:41:44.111 +07:00] [Information] [Kendy]
+[2024-04-30 08:41:44.111 +07:00] [Information] [Kendy]
+[2024-04-30 08:41:44.111 +07:00] [Information] [Kendy]
+[2024-04-30 08:41:44.111 +07:00] [Information] [Kendy]
+[2024-04-30 08:41:44.111 +07:00] [Information] [Kendy]
+[2024-04-30 08:41:44.111 +07:00] [Information] [Kendy]
+[2024-04-30 08:41:44.111 +07:00] [Information] [Kendy]
+[2024-04-30 08:41:44.111 +07:00] [Information] [Kendy]
+[2024-04-30 08:43:46.316 +07:00] [Information] [Kendy]
+[2024-04-30 08:43:46.338 +07:00] [Information] [Kendy]
+[2024-04-30 08:43:46.338 +07:00] [Information] [Kendy]
+[2024-04-30 08:43:46.338 +07:00] [Information] [Kendy]
+[2024-04-30 08:43:46.338 +07:00] [Information] [Kendy]
+[2024-04-30 08:43:46.338 +07:00] [Information] [Kendy]
+[2024-04-30 08:43:46.338 +07:00] [Information] [Kendy]
+[2024-04-30 08:43:46.338 +07:00] [Information] [Kendy]
+[2024-04-30 08:43:46.338 +07:00] [Information] [Kendy]
+[2024-04-30 08:43:46.338 +07:00] [Information] [Kendy]
+[2024-04-30 08:43:46.440 +07:00] [Information] [Kendy]
+[2024-04-30 08:43:46.440 +07:00] [Information] [Kendy]
+[2024-04-30 08:43:46.440 +07:00] [Information] [Kendy]
+[2024-04-30 08:43:46.440 +07:00] [Information] [Kendy]
+[2024-04-30 08:43:46.440 +07:00] [Information] [Kendy]
+[2024-04-30 08:43:46.440 +07:00] [Information] [Kendy]
+[2024-04-30 08:43:46.440 +07:00] [Information] [Kendy]
+[2024-04-30 08:43:46.440 +07:00] [Information] [Kendy]
+[2024-04-30 08:43:46.440 +07:00] [Information] [Kendy]
+[2024-04-30 08:43:46.440 +07:00] [Information] [Kendy]
+[2024-04-30 08:44:04.829 +07:00] [Information] [Kendy]
+[2024-04-30 08:44:04.850 +07:00] [Information] [Kendy]
+[2024-04-30 08:44:04.850 +07:00] [Information] [Kendy]
+[2024-04-30 08:44:04.850 +07:00] [Information] [Kendy]
+[2024-04-30 08:44:04.850 +07:00] [Information] [Kendy]
+[2024-04-30 08:44:04.850 +07:00] [Information] [Kendy]
+[2024-04-30 08:44:04.850 +07:00] [Information] [Kendy]
+[2024-04-30 08:44:04.850 +07:00] [Information] [Kendy]
+[2024-04-30 08:44:04.850 +07:00] [Information] [Kendy]
+[2024-04-30 08:44:04.850 +07:00] [Information] [Kendy]
+[2024-04-30 08:44:04.953 +07:00] [Information] [Kendy]
+[2024-04-30 08:44:04.953 +07:00] [Information] [Kendy]
+[2024-04-30 08:44:04.953 +07:00] [Information] [Kendy]
+[2024-04-30 08:44:04.953 +07:00] [Information] [Kendy]
+[2024-04-30 08:44:04.953 +07:00] [Information] [Kendy]
+[2024-04-30 08:44:04.953 +07:00] [Information] [Kendy]
+[2024-04-30 08:44:04.953 +07:00] [Information] [Kendy]
+[2024-04-30 08:44:04.953 +07:00] [Information] [Kendy]
+[2024-04-30 08:44:04.953 +07:00] [Information] [Kendy]
+[2024-04-30 08:44:04.953 +07:00] [Information] [Kendy]
+[2024-04-30 08:45:14.022 +07:00] [Information] [Kendy]
+[2024-04-30 08:45:14.044 +07:00] [Information] [Kendy]
+[2024-04-30 08:45:14.044 +07:00] [Information] [Kendy]
+[2024-04-30 08:45:14.044 +07:00] [Information] [Kendy]
+[2024-04-30 08:45:14.044 +07:00] [Information] [Kendy]
+[2024-04-30 08:45:14.044 +07:00] [Information] [Kendy]
+[2024-04-30 08:45:14.044 +07:00] [Information] [Kendy]
+[2024-04-30 08:45:14.044 +07:00] [Information] [Kendy]
+[2024-04-30 08:45:14.044 +07:00] [Information] [Kendy]
+[2024-04-30 08:45:14.044 +07:00] [Information] [Kendy]
+[2024-04-30 08:45:14.145 +07:00] [Information] [Kendy]
+[2024-04-30 08:45:14.145 +07:00] [Information] [Kendy]
+[2024-04-30 08:45:14.145 +07:00] [Information] [Kendy]
+[2024-04-30 08:45:14.145 +07:00] [Information] [Kendy]
+[2024-04-30 08:45:14.146 +07:00] [Information] [Kendy]
+[2024-04-30 08:45:14.146 +07:00] [Information] [Kendy]
+[2024-04-30 08:45:14.146 +07:00] [Information] [Kendy]
+[2024-04-30 08:45:14.146 +07:00] [Information] [Kendy]
+[2024-04-30 08:45:14.146 +07:00] [Information] [Kendy]
+[2024-04-30 08:45:14.146 +07:00] [Information] [Kendy]
+[2024-04-30 08:50:57.840 +07:00] [Information] [Executed DbCommand ("9"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"]
+[2024-04-30 08:50:57.869 +07:00] [Information] [Executed DbCommand ("9"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"]
+[2024-04-30 08:50:57.872 +07:00] [Information] [Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"]
+[2024-04-30 08:50:57.875 +07:00] [Information] [Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"]
+[2024-04-30 08:50:57.883 +07:00] [Information] [Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];"]
+[2024-04-30 08:50:57.888 +07:00] [Information] [Applying migration '"20240430015045_InitialCreate"'.]
+[2024-04-30 08:50:57.944 +07:00] [Error] [Failed executing DbCommand ("28"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE [Blogs] (
+    [BlogId] int NOT NULL IDENTITY,
+    [Url] nvarchar(max) NULL,
+    CONSTRAINT [PK_Blogs] PRIMARY KEY ([BlogId])
+);"]
+[2024-04-30 08:51:26.863 +07:00] [Information] [Executed DbCommand ("9"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"]
+[2024-04-30 08:51:26.890 +07:00] [Information] [Executed DbCommand ("7"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"]
+[2024-04-30 08:51:26.893 +07:00] [Information] [Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"]
+[2024-04-30 08:51:26.931 +07:00] [Information] [Executed DbCommand ("12"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);"]
+[2024-04-30 08:51:26.933 +07:00] [Information] [Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"]
+[2024-04-30 08:51:26.935 +07:00] [Information] [Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"]
+[2024-04-30 08:51:26.955 +07:00] [Information] [Executed DbCommand ("19"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];"]
+[2024-04-30 08:51:26.961 +07:00] [Information] [Applying migration '"20240430015045_InitialCreate"'.]
+[2024-04-30 08:51:26.985 +07:00] [Information] [Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE [Blogs] (
+    [BlogId] int NOT NULL IDENTITY,
+    [Url] nvarchar(max) NULL,
+    CONSTRAINT [PK_Blogs] PRIMARY KEY ([BlogId])
+);"]
+[2024-04-30 08:51:26.987 +07:00] [Information] [Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE [Roles] (
+    [Id] nvarchar(450) NOT NULL,
+    [Name] nvarchar(256) NULL,
+    [NormalizedName] nvarchar(256) NULL,
+    [ConcurrencyStamp] nvarchar(max) NULL,
+    CONSTRAINT [PK_Roles] PRIMARY KEY ([Id])
+);"]
+[2024-04-30 08:51:26.991 +07:00] [Information] [Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE [Users] (
+    [Id] nvarchar(450) NOT NULL,
+    [UserName] nvarchar(256) NULL,
+    [NormalizedUserName] nvarchar(256) NULL,
+    [Email] nvarchar(256) NULL,
+    [NormalizedEmail] nvarchar(256) NULL,
+    [EmailConfirmed] bit NOT NULL,
+    [PasswordHash] nvarchar(max) NULL,
+    [SecurityStamp] nvarchar(max) NULL,
+    [ConcurrencyStamp] nvarchar(max) NULL,
+    [PhoneNumber] nvarchar(max) NULL,
+    [PhoneNumberConfirmed] bit NOT NULL,
+    [TwoFactorEnabled] bit NOT NULL,
+    [LockoutEnd] datetimeoffset NULL,
+    [LockoutEnabled] bit NOT NULL,
+    [AccessFailedCount] int NOT NULL,
+    CONSTRAINT [PK_Users] PRIMARY KEY ([Id])
+);"]
+[2024-04-30 08:51:26.993 +07:00] [Information] [Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE [Posts] (
+    [PostId] int NOT NULL IDENTITY,
+    [Title] nvarchar(max) NULL,
+    [Content] nvarchar(max) NULL,
+    [BlogId] int NOT NULL,
+    CONSTRAINT [PK_Posts] PRIMARY KEY ([PostId]),
+    CONSTRAINT [FK_Posts_Blogs_BlogId] FOREIGN KEY ([BlogId]) REFERENCES [Blogs] ([BlogId]) ON DELETE CASCADE
+);"]
+[2024-04-30 08:51:26.994 +07:00] [Information] [Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE [RoleClaims] (
+    [Id] int NOT NULL IDENTITY,
+    [RoleId] nvarchar(450) NOT NULL,
+    [ClaimType] nvarchar(max) NULL,
+    [ClaimValue] nvarchar(max) NULL,
+    CONSTRAINT [PK_RoleClaims] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_RoleClaims_Roles_RoleId] FOREIGN KEY ([RoleId]) REFERENCES [Roles] ([Id]) ON DELETE CASCADE
+);"]
+[2024-04-30 08:51:26.996 +07:00] [Information] [Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE [UserClaims] (
+    [Id] int NOT NULL IDENTITY,
+    [UserId] nvarchar(450) NOT NULL,
+    [ClaimType] nvarchar(max) NULL,
+    [ClaimValue] nvarchar(max) NULL,
+    CONSTRAINT [PK_UserClaims] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_UserClaims_Users_UserId] FOREIGN KEY ([UserId]) REFERENCES [Users] ([Id]) ON DELETE CASCADE
+);"]
+[2024-04-30 08:51:26.999 +07:00] [Information] [Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE [UserLogins] (
+    [LoginProvider] nvarchar(450) NOT NULL,
+    [ProviderKey] nvarchar(450) NOT NULL,
+    [ProviderDisplayName] nvarchar(max) NULL,
+    [UserId] nvarchar(450) NOT NULL,
+    CONSTRAINT [PK_UserLogins] PRIMARY KEY ([LoginProvider], [ProviderKey]),
+    CONSTRAINT [FK_UserLogins_Users_UserId] FOREIGN KEY ([UserId]) REFERENCES [Users] ([Id]) ON DELETE CASCADE
+);"]
+[2024-04-30 08:51:27.002 +07:00] [Information] [Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE [UserRoles] (
+    [UserId] nvarchar(450) NOT NULL,
+    [RoleId] nvarchar(450) NOT NULL,
+    CONSTRAINT [PK_UserRoles] PRIMARY KEY ([UserId], [RoleId]),
+    CONSTRAINT [FK_UserRoles_Roles_RoleId] FOREIGN KEY ([RoleId]) REFERENCES [Roles] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_UserRoles_Users_UserId] FOREIGN KEY ([UserId]) REFERENCES [Users] ([Id]) ON DELETE CASCADE
+);"]
+[2024-04-30 08:51:27.005 +07:00] [Information] [Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE [UserTokens] (
+    [UserId] nvarchar(450) NOT NULL,
+    [LoginProvider] nvarchar(450) NOT NULL,
+    [Name] nvarchar(450) NOT NULL,
+    [Value] nvarchar(max) NULL,
+    CONSTRAINT [PK_UserTokens] PRIMARY KEY ([UserId], [LoginProvider], [Name]),
+    CONSTRAINT [FK_UserTokens_Users_UserId] FOREIGN KEY ([UserId]) REFERENCES [Users] ([Id]) ON DELETE CASCADE
+);"]
+[2024-04-30 08:51:27.006 +07:00] [Information] [Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE INDEX [IX_Posts_BlogId] ON [Posts] ([BlogId]);"]
+[2024-04-30 08:51:27.007 +07:00] [Information] [Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE INDEX [IX_RoleClaims_RoleId] ON [RoleClaims] ([RoleId]);"]
+[2024-04-30 08:51:27.008 +07:00] [Information] [Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE UNIQUE INDEX [RoleNameIndex] ON [Roles] ([NormalizedName]) WHERE [NormalizedName] IS NOT NULL;"]
+[2024-04-30 08:51:27.009 +07:00] [Information] [Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE INDEX [IX_UserClaims_UserId] ON [UserClaims] ([UserId]);"]
+[2024-04-30 08:51:27.010 +07:00] [Information] [Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE INDEX [IX_UserLogins_UserId] ON [UserLogins] ([UserId]);"]
+[2024-04-30 08:51:27.011 +07:00] [Information] [Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE INDEX [IX_UserRoles_RoleId] ON [UserRoles] ([RoleId]);"]
+[2024-04-30 08:51:27.012 +07:00] [Information] [Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE INDEX [EmailIndex] ON [Users] ([NormalizedEmail]);"]
+[2024-04-30 08:51:27.013 +07:00] [Information] [Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE UNIQUE INDEX [UserNameIndex] ON [Users] ([NormalizedUserName]) WHERE [NormalizedUserName] IS NOT NULL;"]
+[2024-04-30 08:51:27.020 +07:00] [Information] [Executed DbCommand ("7"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20240430015045_InitialCreate', N'8.0.4');"]
