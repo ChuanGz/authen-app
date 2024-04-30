@@ -37,14 +37,8 @@ public partial class ApplicationDbContext(DbContextOptions<ApplicationDbContext>
             entity.ToTable("UserTokens");
 
         });
-        // PrintCnnString();
 
         IdentityServerSeeder.DataSeeder(builder);
-    }
-
-    private void PrintCnnString()
-    {
-        Log.Information($"Kendy Test: {base.Database.GetConnectionString()}");
     }
 
     public DbSet<Blog> Blogs { get; set; }
