@@ -36,9 +36,6 @@
     dotnet add package Microsoft.EntityFrameworkCore.Tool
     dotnet add package Microsoft.EntityFrameworkCore.Design
     dotnet add package Microsoft.EntityFrameworkCore.SqlServer
-    dotnet add package OpenIddict
-    dotnet add package OpenIddict.EntityFrameworkCore
-    dotnet add package OpenIddict.AspNetCore
     dotnet add package Microsoft.AspNetCore.Identity.EntityFrameworkCore
     dotnet add package Microsoft.AspNetCore.Authentication.JwtBearer
     ```
